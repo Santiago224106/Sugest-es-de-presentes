@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Isabela & Paulo Vitor❤️ Sugestões de Presentes por Cômodo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #04042e;
+      color: #c19c00;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #c19c00;
+    }
+    .room-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+    .room-button {
+      background-color: transparent;
+      border: 2px solid #c19c00;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      color: #c19c00;
+      transition: all 0.3s;
+    }
+    .room-button:hover {
+      background-color: rgba(193, 156, 0, 0.2);
+    }
+    .gift-section {
+      display: none;
+      background-color: #1a1a3c;
+      border-radius: 12px;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .gift-list {
+      list-style: none;
+      padding: 0;
+    }
+    .gift-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid #333;
+    }
+    .back-button {
+      margin-top: 20px;
+      background: #c19c00;
+      color: #04042e;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .color-palette span {
+      display:inline-block;
+      width:20px;
+      height:20px;
+      margin:0 8px;
+      border-radius:50%;
+      border:1px solid #ccc;
+    }
+    .palette-description {
+      font-size: 13px;
+      color: #aaa;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Isabela & Paulo Vitor❤️ Sugestões de Presentes por Cômodo</h1>
+  <div class="room-buttons">
+    <button class="room-button" onclick="showSection('cozinha')">🍳 Cozinha</button>
+    <button class="room-button" onclick="showSection('quarto')">🛏️ Quarto</button>
+    <button class="room-button" onclick="showSection('sala')">🛋️ Sala</button>
+    <button class="room-button" onclick="showSection('banheiro')">🚿 Banheiro</button>
+  </div>
+
+  <div id="cozinha" class="gift-section">
+    <h2>Presentes para a Cozinha</h2>
+    <div class="color-palette">
+      <span style="background:#000000;" title="#000000"></span>
+      <span style="background:#4d5a77;" title="#4d5a77"></span>
+      <span style="background:#ffffff;" title="#ffffff"></span>
+      <span style="background:#cea06e;" title="#cea06e"></span>
+      <div class="palette-description">Sugestão de paleta de cores para itens de cozinha</div>
+    </div>
+    <ul class="gift-list">
+      <li>Conjunto de panelas</li>
+      <li>Jogo de talheres</li>
+      <li>Pratos de porcelana</li>
+      <li>Copos de vidro</li>
+      <li>Taças de vinho</li>
+      <li>Jogo de facas</li>
+      <li>Potes herméticos</li>
+      <li>Liquidificador</li>
+      <li>Batedeira</li>
+      <li>Panela de pressão</li>
+      <li>Jarra de suco</li>
+      <li>Tábua de corte</li>
+      <li>Escorredor de pratos</li>
+      <li>Assadeira</li>
+      <li>Forma de bolo</li>
+      <li>Ralador</li>
+      <li>Espremedor de alho</li>
+      <li>Concha de feijão</li>
+      <li>Jogo de medidores</li>
+      <li>Peneira</li>
+    </ul>
+    <button class="back-button" onclick="goBack()">Voltar</button>
+  </div>
+
+  <div id="quarto" class="gift-section">
+    <h2>Presentes para o Quarto</h2>
+    <div class="color-palette">
+      <span style="background:#000000;" title="#000000"></span>
+      <span style="background:#4d5a77;" title="#4d5a77"></span>
+      <span style="background:#ffffff;" title="#ffffff"></span>
+      <span style="background:#8b2e02;" title="#8b2e02"></span>
+      <div class="palette-description">Sugestão de paleta de cores para itens de quarto</div>
+    </div>
+    <ul class="gift-list">
+      <li>Jogo de cama</li>
+      <li>Travesseiros</li>
+      <li>Edredom</li>
+      <li>Mantas decorativas</li>
+      <li>Abajur</li>
+      <li>Cortina</li>
+      <li>Almofadas</li>
+      <li>Espelho de parede</li>
+      <li>Porta-retratos</li>
+      <li>Tapete</li>
+      <li>Roupão</li>
+      <li>Cabides</li>
+      <li>Organizador de gavetas</li>
+      <li>Despertador</li>
+      <li>Luminária</li>
+      <li>Caixa organizadora</li>
+      <li>Jogo de toalhas</li>
+      <li>Aromatizador de ambiente</li>
+      <li>Colcha</li>
+      <li>Difusor de luz</li>
+    </ul>
+    <button class="back-button" onclick="goBack()">Voltar</button>
+  </div>
+
+  <div id="sala" class="gift-section">
+    <h2>Presentes para a Sala</h2>
+    <div class="color-palette">
+      <span style="background:#000000;" title="#000000"></span>
+      <span style="background:#4d5a77;" title="#4d5a77"></span>
+      <span style="background:#ffffff;" title="#ffffff"></span>
+      <span style="background:#cea06e;" title="#cea06e"></span>
+      <span style="background:#8b2e02;" title="#8b2e02"></span>
+      <div class="palette-description">Sugestão de paleta de cores para itens de sala</div>
+    </div>
+    <ul class="gift-list">
+      <li>Quadros decorativos</li>
+      <li>Tapete</li>
+      <li>Abajur</li>
+      <li>Luminária de piso</li>
+      <li>Almofadas decorativas</li>
+      <li>Manta para sofá</li>
+      <li>Cortinas</li>
+      <li>Vaso decorativo</li>
+      <li>Relógio de parede</li>
+      <li>Centro de mesa</li>
+      <li>Porta-retratos</li>
+      <li>Caixa organizadora</li>
+      <li>Aromatizador</li>
+      <li>Porta-controle</li>
+      <li>Lixeira de canto</li>
+      <li>Suporte de plantas</li>
+      <li>Castiçais</li>
+      <li>Livros decorativos</li>
+      <li>Globo decorativo</li>
+      <li>Espelho de parede</li>
+    </ul>
+    <button class="back-button" onclick="goBack()">Voltar</button>
+  </div>
+
+  <div id="banheiro" class="gift-section">
+    <h2>Presentes para o Banheiro</h2>
+    <div class="color-palette">
+      <span style="background:#000000;" title="#000000"></span>
+      <span style="background:#e6a2cb;" title="#e6a2cb"></span>
+      <span style="background:#ffffff;" title="#ffffff"></span>
+      <div class="palette-description">Sugestão de paleta de cores para itens de banheiro</div>
+    </div>
+    <ul class="gift-list">
+      <li>Jogo de toalhas</li>
+      <li>Toalha de rosto</li>
+      <li>Toalha de piso</li>
+      <li>Porta-sabonete</li>
+      <li>Dispenser de sabonete líquido</li>
+      <li>Porta-escovas</li>
+      <li>Suporte para papel higiênico</li>
+      <li>Cesto de roupa suja</li>
+      <li>Tapete de banheiro</li>
+      <li>Cortina de box</li>
+      <li>Espelho</li>
+      <li>Cabideiro</li>
+      <li>Aromatizador de ambiente</li>
+      <li>Saboneteira</li>
+      <li>Organizador de prateleira</li>
+      <li>Lixeira</li>
+      <li>Escova sanitária</li>
+      <li>Porta algodão</li>
+      <li>Porta cotonete</li>
+      <li>Toalha de mão</li>
+    </ul>
+    <button class="back-button" onclick="goBack()">Voltar</button>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.gift-section').forEach(el => el.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    function goBack() {
+      document.querySelectorAll('.gift-section').forEach(el => el.style.display = 'none');
+    }
+  </script>
+</body>
+</html>
